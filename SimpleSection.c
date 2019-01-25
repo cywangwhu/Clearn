@@ -1,5 +1,15 @@
+/*
+ *SimpleSection.c
+ *
+ *Linux:
+ *  gcc -c SimpleSection.c
+ * 
+ *Windows:
+ *  cl SimpleSection.c /c /Za
+ */
+ 
 int printf(const char* format, ... );
-int global_init_var = 66;
+int global_init_var = 84;
 int global_uninit_var;
 
 void func1( int i )
